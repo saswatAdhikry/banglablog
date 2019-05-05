@@ -30,5 +30,15 @@ Class MyDatabase {
 			return false;
 		}
 	}
+	
+	public function insert($q){
+		$insert_row = $this->link->query($q) or die ($this->link->error.__LINE__);
+		if($insert_row){
+			header("Location: index.php?msg=".urlencode('Data inserted successfully.'));
+			exit();
+		} else {
+			die("Error : ".$this->link->errno."Description: ".$this->link->error);
+		}
+	}
 }
 ?>

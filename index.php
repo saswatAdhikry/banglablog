@@ -17,7 +17,11 @@ $DB = new MyDatabase();
 $query = "SELECT * from tbl_user";
 $read = $DB->select($query);
 ?>
-
+<?php
+	if(isset($_GET['msg'])){
+		echo "<span style='color: green'>Status MESSEGE: ". $_GET['msg']."</span>";
+	}
+?>
 <section class="mainContent">
 <table class="table">
 <tr>
@@ -40,7 +44,7 @@ $read = $DB->select($query);
 <p> DATA Not Available!</p>
 <?php }?>
 </table>
-
+<a href="crud_create.php">Create</a>
 </section>
 <?php include 'inc/footer.php'?>
 </div>
