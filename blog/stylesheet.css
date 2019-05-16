@@ -1,0 +1,77 @@
+*{margin:0; padding:0; outline:0}
+body{
+font-family: arial;
+font-size: 14px;
+line-height: 18px:
+color:#000;
+}
+.saTemplet{
+	width: 96%;
+	margin:0 auto;
+}
+.saClear{
+	overflow: hidden;
+}
+.saHeaderSection{height:85px;background:#6A997A; color: #FFF}
+
+.saHeaderSection h2 {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.saNavsection{
+	height:30px;
+	background:#9B997A;
+	
+}
+.saNavsection p {
+	padding-left: 50px;
+	font-size: 20px;
+	color: #FFF;
+	padding-top:5px;
+	font-weight:bold;
+}
+
+.saContentSecton{
+	
+	background:#fff;
+}
+
+.saMainContent{
+	
+width: 68%;
+background: #DFDFDF;
+float: left;
+padding: 10px;
+margin: 15px 0px 15px 0px;
+}
+.saMainContent p{
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+
+.saSidebar{
+	
+	width: 25%;
+	background: #FDDDDD;
+	float:right;
+	padding: 10px;
+
+margin: 15px 0px 15px 15px;
+}
+.saSidebar p{}
+
+.saFooterSection{
+	
+	height:90px;
+	background: #9B997B;
+}
+.saFooterSection p{color:#fff; font-size:30px; padding-top: 20px;font-weight: bold; text-align: center}
+
+	
+
+
+
+
